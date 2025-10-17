@@ -9,7 +9,6 @@ public class GameManager : MonoBehaviour
 {
     void Start()
     {
-        Debug.Log("GameManager Started!");
     }
 
     void Update()
