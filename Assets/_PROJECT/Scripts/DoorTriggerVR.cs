@@ -4,6 +4,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.XR.Interaction.Toolkit.Locomotion;
 
 public class DoorTriggerVR : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class DoorTriggerVR : MonoBehaviour
 	public PlayableDirector doorTimeline;
 
 	[Tooltip("Référence au DynamicMoveProvider qui gère le mouvement de l'XR Origin (peut rester vide pour auto-find)")]
-	public DynamicMoveProvider moveProvider;
+	public XRBodyTransformer moveProvider;
 
 	// Liste des composants de mouvement désactivés temporairement
 	private List<Behaviour> _disabledMovementComponents = new List<Behaviour>();
