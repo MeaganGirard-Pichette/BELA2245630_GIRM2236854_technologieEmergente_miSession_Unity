@@ -60,11 +60,11 @@
         "*.asset": "yaml",
         "*.meta": "yaml",
         "*.prefab": "yaml",
-        "*.unity": "yaml",
+        "*.unity": "yaml"
     },
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
-        "*.sln": "*.csproj",
+        "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "GIRM2236854_technologie_emergente_miSession.sln"
+    "dotnet.defaultSolution": "BELA2245630_GIRM2236854_technologieEmergente_miSession_Unity-1.sln"
 }
