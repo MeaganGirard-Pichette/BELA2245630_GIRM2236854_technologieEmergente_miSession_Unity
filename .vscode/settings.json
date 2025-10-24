@@ -66,5 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "BELA2245630_GIRM2236854_technologieEmergente_miSession_Unity-1.sln"
+    "dotnet.defaultSolution": "BELA2245630_GIRM2236854_technologieEmergente_miSession_Unity.sln"
 }
