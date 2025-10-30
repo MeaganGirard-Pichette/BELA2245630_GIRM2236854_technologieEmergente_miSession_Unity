@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.UI;
 using TMPro;
-using Unity.Android.Gradle;
+// using Unity.Android.Gradle;
 
 public class GameManager : MonoBehaviour
 {
